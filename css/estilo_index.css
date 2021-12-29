@@ -1,0 +1,45 @@
+.contenedor{
+    text-align: center;
+    width: 100%;
+
+}
+
+.letrero{
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+
+    background-color: #ffff00;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 8px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.texto{
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: arial;
+}
+
+@media (max-width: 500px) {
+    .imagen{
+        width: 260px;
+    }
+    .titulo{
+        font-size: 2.px;
+        width: 200px;
+    }
+    .texto{
+        width: 200px;
+    }
+}
