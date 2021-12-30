@@ -29,8 +29,24 @@
     margin: 20px auto;
     padding: 10px;
     font-family: arial;
+    font-size: 18px;
+    border-color: gray;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 8px;
+    background-color: #ebebeb;
 }
 
+.firma{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.fa-facebook-square{
+    font-size: 50px;
+    color: #1877f2;
+}
 /* Diseño adaptado para moviles */
 @media (max-width: 500px) {
     .imagen{
