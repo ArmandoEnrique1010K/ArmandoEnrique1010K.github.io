@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+
+
+
+body {
+    background-color: rgb(0, 102, 51);
+}
+
+.contenedor{
+    background-color: rgb(40, 177, 109);
+    width: 80%;
+    margin: auto;
+}
+
+.barra-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+}
+
+.item-menu{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    align-self: center;
+    padding: 1em 0;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.item-menu:hover{
+    background-color: #c3fde0;
+    color: black
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.texto-informativo{
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+    background-color: #8dd3b0;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.texto-informativo ul{
+    margin-left: 20px;
+}
+
+.boton-chatbot{
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1em 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.caja-vacia{
+    height: 50px;
+}
+
+.boton-chatbot:hover{
+    background-color: #044928;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .contenedor{
+        width: 90%;
+    }
+}  
+
+@media only screen and (max-width: 450px) {
+    .contenedor{
+        width: 100%;
+    }
+}  
+
